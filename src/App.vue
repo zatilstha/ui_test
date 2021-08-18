@@ -35,16 +35,21 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /*text-align: center;*/
-  /*color: #2c3e50;*/
-  /*margin-top: 60px;*/
+@font-face {
+  font-family: 'sunset-gothic-bold-pro';
+  src: url('/assets/fonts/sunset-gothic-bold-pro.eot');
+  src: url('/assets/fonts/sunset-gothic-bold-pro.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/sunset-gothic-bold-pro.woff2') format('woff2'),
+  url('/assets/fonts/sunset-gothic-bold-pro.woff') format('woff'),
+  url('/assets/fonts/sunset-gothic-bold-pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
+  font-family: 'sunset-gothic-bold-pro', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   background: #F2EFEE;
 }
 
